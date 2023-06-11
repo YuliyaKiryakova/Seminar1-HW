@@ -5,10 +5,17 @@
 
 Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine()!);
-int start = 1;
+/*int start = 1;
 while (start <= num)
 {
     if (start % 2 == 0)
         Console.Write(start + ", ");
     start++;
+}
+*/
+int start = 2;
+while (start <= num)
+{
+    Console.Write(start + ", ");
+    start = start + 2;
 }
